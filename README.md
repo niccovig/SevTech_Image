@@ -4,8 +4,51 @@ This is a sample docker-compose yaml file to get a full up and running server is
 
 ## Installation
 
-Clone the repository and insert the *.yaml file in a directory of your choice. Inside this directory you will need to create another directory called "server-data" in which you will put the server .zip file.
+---
+
+### Linux
+
+Clone and enter the repository
+
+    git clone https://github.com/TheRealLorenz/SevTech_Image.git
+    cd SevTech_Image
+
+Execute the setup script
+
+    chmod +x setup.sh
+    ./setup.sh
+
+This will create a folder for game data and will download the .zip server file
+
+### Windows
+
+If you appear to have git installed on powershell clone and enter the repository
+
+    git clone https://github.com/TheRealLorenz/SevTech_Image.git
+    cd SevTech_Image
+
+Otherwise download the .zip file and extract it in a folder of your choice.
+
+Then execute the .ps1 script either by executing it via powershell
+
+    ./setuo.ps1
+
+Or by double clicking it.
 
 ## Running the server
+
+---
+
+### Linux
+
+Simply run
+
+    docker-compose up
+
+*with '-d' if you wanto to detach the container from the terminal*
+
+And you're done!
+
+## Windows
 
 WIP
