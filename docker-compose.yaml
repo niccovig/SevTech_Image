@@ -10,7 +10,6 @@ services:
             EULA: "TRUE"
             TYPE: "CURSEFORGE"
             CF_SERVER_MOD: "/data/SevTech-Ages_Server_3.1.7.zip"
-            OPS: "TheRealLorenz"
             OVERRIDE_SERVER_PROPERTIES: "true"
             ENABLE_RCON: "true"
             RCON_PASSWORD: "minecraft"
