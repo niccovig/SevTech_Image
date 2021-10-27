@@ -31,7 +31,7 @@ Otherwise download the .zip file and extract it in a folder of your choice.
 
 Then execute the .ps1 script either by executing it via powershell
 
-    ./setuo.ps1
+    ./setup.ps1
 
 Or by double clicking it.
 
